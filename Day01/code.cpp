@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int n) {
         int reminder;
-        int rev=0;
+        long long rev = 0;
         int  x = n;
         if (n<0)
         {
